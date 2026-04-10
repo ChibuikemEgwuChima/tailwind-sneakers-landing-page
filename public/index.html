@@ -1,0 +1,232 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wear Shoes</title>
+  <link href="./src/output.css" rel="stylesheet">
+</head>
+
+<body>
+  <div><!-- content wrapper  -->
+
+    <div class="mb-3">
+      <nav class="mt-3 flex justify-between items-center border-b border-gray-100 p-5">
+        <div class="flex justify-between gap-30">
+          <h1 class="text-xl md:text-2xl lg:text-3xl font-extrabold font-mono hover px-4">
+            <a href="/">Wear shoes</a>
+          </h1>
+          <div class="px-4 cursor-pointer md:hidden" id="burger">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+            </svg>
+            
+          </div>
+        </div>
+        <ul
+          class="flex flex-col md:flex-row md:justify-around gap-2 md:gap-6 text-lg md:text-xl pr-2 cursor-pointer font- hidden md:flex" id="menu">
+          <li class="hover">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="size-7 inline text-black">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+            </svg>
+
+            <a href="#home">Home</a>
+          </li>
+         
+
+          <li class="hover">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="size-7 inline">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+          </svg>
+            <a href="#collections">Collections</a>
+
+          </li>
+          <li class="hover">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="size-7 inline">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M9.568 3H5.25A2.25 2.25 0 0 0 3 5.25v4.318c0 .597.237 1.17.659 1.591l9.581 9.581c.699.699 1.78.872 2.607.33a18.095 18.095 0 0 0 5.223-5.223c.542-.827.369-1.908-.33-2.607L11.16 3.66A2.25 2.25 0 0 0 9.568 3Z" />
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6 6h.008v.008H6V6Z" />
+            </svg>
+
+            <a href="#featured">Featured</a>
+          </li>
+          
+
+          <li class="hover">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="size-7 inline">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+          </svg>
+            <a href="/">Shop</a>
+          </li>
+        </ul>
+      </nav>
+
+
+    </div>
+
+    <main>
+      <!-- hero section/home -->
+      <section class="bg-[url('/public/img/white_shoe.jpg')] bg-center bg-cover h-screen mt-7" id="home">
+        <div class="flex flex-col items-center justify-center px-4 text-center h-full">
+          <div class="text-center px-4 md:px-16 lg:px-32 text-2xl md:text-3xl lg:text-4xl mt-10 md:mt-20">
+            <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold font-mono">Wear Shoes Collections</h2>
+            <p class="text-base md:text-lg font-medium leading-relaxed mb-2 max-w-md">Elevate your style with our
+              premium, high-quality shoes. Crafted for comfort and fashion.</p> 
+              <span class="block text-sm md:text-base font-stretch-semi-condensed">Avaliable in all sizes</span>
+            <div class="mt-6">
+              <a href="" class="inline-block btn">
+                Order Now
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- collections -->
+
+      <section class="mt-11" id="collections">
+        <h2 class="text-3xl md:text-4xl font-extrabold font-mono uppercase text-center"> collections</h2>
+        <p class="text-xl text-gray-600 max-w-2xl mx-auto text-center">Discover our curated selection of premium
+          footwear</p>
+        <div class="mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 p-1">
+          <!-- cards -->
+          <div class="relative">
+            <img src="./public/img/shoe1.avif" alt="shoe" class="w-full h-48 md:h-64 lg:h-80 object-cover hover">
+            <div class="text-center mt-1">
+              <span class="text-lg md:text-xl text-gray-600">Puma Track Runner</span>
+              <div class="badge">
+                <span class="block">$69</span>
+              </div>
+            </div>
+          </div>
+          <div class="relative">
+            <img src="./public/img/shoe2.webp" alt="shoe" class="w-full h-48 md:h-64 lg:h-80 object-cover hover">
+            <div class="text-center mt-1">
+              <span class="text-lg md:text-xl text-gray-600">High grade LV sneakers</span>\n <div class="badge"> 
+                <span class="block">$69</span> </div>
+            </div>
+          </div>
+          <div class="relative">
+            <img src="./public/img/shoe3.webp" alt="shoe" class="w-full h-48 md:h-64 lg:h-80 object-cover hover">
+            <div class="text-center mt-1">
+              <span class="text-lg md:text-xl text-gray-600">High grade LV sneakers</span> 
+              <div class="badge">
+                <span class="block">$69</span> 
+              </div>
+            </div>
+          </div>
+          <div class="relative">
+            <img src="./public/img/AIR+JORDAN+13+RETRO.avif" alt="shoe"
+              class="w-full h-48 md:h-64 lg:h-80 object-cover hover group-hover:shadow-3xl">
+            <div class="text-center mt-1"> 
+              <span class="text-lg md:text-xl text-gray-600">High grade LV sneakers</span> 
+            </div> 
+            <div class="badge"> 
+              <span>$69</span>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+
+      <!-- featured -->
+      <section class="py-16 bg-gradient-to-br from-gray-50 mt-6" id="featured">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="grid md:grid-cols-2 gap-12 lg:gap-20 items-center">
+                    
+            <!-- promo image -->
+            <div class="relative ">
+              <img src="./public/img/nike_jordans.jpg" alt="Nike Air Jordan Retro on discount"
+                class="w-full h-80 md:h-96 lg:h-[500px] object-cover rounded-2xl shadow-2xl ring-4 ring-white/50 hover">
+
+              <div class="top-6 left-6 badge bg-red-500 text-white border-red-500 shadow-lg">
+                <span class="text-lg font-bold">50% OFF</span>
+                <span class="block text-xs">Limited Time!</span>
+              </div>
+            </div>
+
+
+            <div class="space-y-6">
+              <div>
+                <h3 class="text-3xl md:text-4xl lg:text-5xl font-extrabold font-mono text-gray-900 leading-tight">
+                  Nike Air Jordan 13 Retro</h3>
+                <p class="text-lg md:text-xl text-gray-600 mt-4">Classic style meets unbeatable comfort. Perfect for
+                  everyday wear</p>
+              </div>
+
+              <div class="space-y-2">
+                <div class="flex items-baseline gap-4">
+                  <span class="text-3xl md:text-4xl font-bold text-gray-900">$60</span>
+                  <span class="text-xl md:text-2xl font-bold text-gray-500 line-through">$120</span>
+                </div>
+                <p class="text-sm text-gray-500">Save $60 instantly! Stock limited.</p>
+              </div>
+
+              <!-- CTA -->
+              <div class="pt-4">
+                <a href="#"
+                  class="btn inline-flex items-center gap-3 text-lg px-8 py-4 shadow-xl hover:shadow-2xl transform hover:-translate-y-1 transition-all duration-300 bg-gradient-to-r from-black to-gray-900">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                  </svg>
+
+                  <span>Grab Yours Now!</span>
+                  <span class="text-sm font-normal">(Only few left)</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="bg-white py-24 sm:py-32">
+          <div class="mx-auto max-w-7xl px-6 lg:px-8">
+            <h2 class="text-center text-lg/8 font-semibold text-gray-900">Sponsored By Our Partners</h2>
+            <div\n
+              class="mx-auto mt-10 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 items-center gap-x-4 md:gap-x-8 gap-y-10 sm:max-w-xl lg:mx-0 lg:max-w-none">
+              <img width="158" height="48"
+                src="https://tailwindcss.com/plus-assets/img/logos/158x48/transistor-logo-gray-900.svg" alt="Transistor"
+                class="col-span-2 max-h-12 w-full object-contain lg:col-span-1" />
+              <img width="158" height="48"
+                src="https://tailwindcss.com/plus-assets/img/logos/158x48/reform-logo-gray-900.svg" alt="Reform"
+                class="col-span-2 max-h-12 w-full object-contain lg:col-span-1" />
+              <img width="158" height="48"
+                src="https://tailwindcss.com/plus-assets/img/logos/158x48/tuple-logo-gray-900.svg" alt="Tuple"
+                class="col-span-2 max-h-12 w-full object-contain lg:col-span-1" />
+              <img width="158" height="48"
+                src="https://tailwindcss.com/plus-assets/img/logos/158x48/savvycal-logo-gray-900.svg" alt="SavvyCal"
+                class="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1" />
+              <img width="158" height="48"
+                src="https://tailwindcss.com/plus-assets/img/logos/158x48/statamic-logo-gray-900.svg" alt="Statamic"
+                class="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1" />
+          </div>
+        </div>
+  </div>
+  </section>
+
+  </main>
+  <footer class="border-t border-gray-200 bg-gradient-to-r from-gray-50 to-gray-100 py-8 md:py-12">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <p class="text-lg font-mono text-gray-600 font-semibold tracking-wide">@Dante 2026 Tailwind Project</p>
+    </div>
+  </footer>
+  </div>
+
+
+  <script src="index.js"></script>
+</body>
+
+</html>
