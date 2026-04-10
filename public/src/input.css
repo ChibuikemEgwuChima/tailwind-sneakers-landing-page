@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+
 @layer components {
  .btn {
     @apply rounded-full bg-black text-white p-2 mt-2 font-semibold uppercase tracking-wide transition-all duration-300 transform hover:-translate-y-2 hover:shadow-2xl;
@@ -9,6 +10,11 @@
  }
  .hover {
    @apply hover:scale-105 transition-all duration-500;
+ }
+ .hero-bg {
+   background-image: url('../img/white_shoe.jpg');
+   background-position: center;
+   background-size: cover;
  }
  
 }
